@@ -23,7 +23,13 @@ class StoreArticleRequest extends FormRequest
     {
         return [
             'title' => 'required',
-            'body' => 'required'
+            'body' => 'required',
+            'image.*' => 'image',
+            'gluk' => '',
+            'vegan' => '',
+            'taimetoit' => '',
+            'tugevus' => '',
+            'hind' => '',
         ];
     }
 }

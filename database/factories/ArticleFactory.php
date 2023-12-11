@@ -29,12 +29,17 @@ class ArticleFactory extends Factory
         }
 
         return [
-            'title' => fake()->sentence,
+            'title' => fake()->word,
             'body' => fake()->paragraphs(3, true),
             'created_at' => $created,
             'updated_at' => $updated,
             'deleted_at' => $deleted,
             'user_id' => User::inRandomOrder()->first()->id,
+            'gluk' => rand(true,false),
+            'vegan' => rand(true,false),
+            'taimetoit' => rand(true,false),
+            'tugevus' => rand(0,5),
+            'hind' => rand(2,15),
         ];
     }
 }

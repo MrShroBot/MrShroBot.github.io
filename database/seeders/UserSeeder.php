@@ -18,6 +18,6 @@ class UserSeeder extends Seeder
             'name' => env('DEFAULT_USER_NAME','User Mememe'),
             'password' => env('DEFAULT_USER_PASSWORD','password'),
         ]);
-        User::factory(10)->create();
+        User::factory(2)->create();
     }
 }

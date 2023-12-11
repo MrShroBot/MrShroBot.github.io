@@ -14,10 +14,10 @@ class TagSeeder extends Seeder
      */
     public function run(): void
     {
-        $tags = Tag::factory(20)->create();
+        $tags = Tag::factory(2)->create();
         $articles = Article::all();
         foreach ($articles as $article){
-            $randCount = rand(0, 5);
+            $randCount = rand(0, 2);
             $randTag = $tags->random($randCount);
             foreach ($randTag as $tag){
                 $article->tags()->attach($tag);

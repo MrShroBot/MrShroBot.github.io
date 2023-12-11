@@ -9,7 +9,7 @@ class Image extends Model
 {
     use HasFactory;
 
-    public function image()
+    public function article()
     {
         return $this->belongsTo(Article::class);
     }

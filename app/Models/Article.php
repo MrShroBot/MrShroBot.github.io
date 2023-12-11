@@ -11,7 +11,7 @@ class Article extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['title', 'body'];
+    protected $fillable = ['title', 'body', 'gluk','vegan','taimetoit','hind', 'tugevus'];
 
     protected function snippet(): Attribute
     {
@@ -41,21 +41,11 @@ class Article extends Model
         return $this->hasMany(Comment::class);
     }
 
-    public function likes()
-    {
-        return $this->hasMany(Like::class);
-    }
 
     public function tags()
     {
         return $this->belongsToMany(Tag::class);
     }
 
-    public function authHasLiked()
-    {
-        if(auth()->check()) {
-            return $this->likes()->where('user_id', auth()->user()->id)->exists();
-        }
-        return false;
-    }
+
 }
