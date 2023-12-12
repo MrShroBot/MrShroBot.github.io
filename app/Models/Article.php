@@ -11,7 +11,7 @@ class Article extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['title', 'body', 'gluk','vegan','taimetoit','hind', 'tugevus'];
+    protected $fillable = ['title', 'body', 'glutF','vegan','vegetarian','price','spice'];
 
     protected function snippet(): Attribute
     {

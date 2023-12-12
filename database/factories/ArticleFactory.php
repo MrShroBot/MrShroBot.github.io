@@ -35,11 +35,11 @@ class ArticleFactory extends Factory
             'updated_at' => $updated,
             'deleted_at' => $deleted,
             'user_id' => User::inRandomOrder()->first()->id,
-            'gluk' => rand(true,false),
+            'glutF' => rand(true,false),
             'vegan' => rand(true,false),
-            'taimetoit' => rand(true,false),
-            'tugevus' => rand(0,5),
-            'hind' => rand(2,15),
+            'vegetarian' => rand(true,false),
+            'spice' => rand(0,5),
+            'price' => rand(2,15),
         ];
     }
 }

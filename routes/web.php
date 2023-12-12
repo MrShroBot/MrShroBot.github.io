@@ -44,8 +44,8 @@ Route::get('/dashboard', function () {
 Route::middleware('auth')->group(function () {
 
     Route::resource('/admin/articles', ArticleController::class);
-    Route::post('/article/{article}', [CommentController::class, 'store'])->name('comments.store');
-    Route::post('/article/{article}/like', [LikeController::class, 'like'])->name('like');
+    //Route::post('/article/{article}', [CommentController::class, 'store'])->name('comments.store');
+    //Route::post('/article/{article}/like', [LikeController::class, 'like'])->name('like');
 
     Route::resource('/admin/users', UserController::class);
 

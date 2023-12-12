@@ -25,11 +25,11 @@ class StoreArticleRequest extends FormRequest
             'title' => 'required',
             'body' => 'required',
             'image.*' => 'image',
-            'gluk' => '',
+            'glutF' => '',
             'vegan' => '',
-            'taimetoit' => '',
-            'tugevus' => '',
-            'hind' => '',
+            'vegetarian' => '',
+            'spice' => '',
+            'price' => '',
         ];
     }
 }

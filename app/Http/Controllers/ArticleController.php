@@ -17,7 +17,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = auth()->user()->latest()->paginate();
+        $articles = auth()->user()->articles()->latest()->paginate();
         return view('articles.index', compact('articles'));
     }
 

@@ -11,7 +11,7 @@
                             <span class="label-text">Title</span>
 
                         </label>
-                        <input name="title" type="text" placeholder="Article Title" class="input input-bordered w-full @error('title') input-error @enderror"/>
+                        <input name="title" type="text" placeholder="Burger Title" class="input input-bordered w-full @error('title') input-error @enderror"/>
                         @error('title')
                             <label class="label">
                                 <span class="label-text-alt text-error">{{$message}}</span>
@@ -33,17 +33,17 @@
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Hind</span>
+                            <span class="label-text">Price</span>
                         </label>
-                        <input class="input input-bordered w-full" type="number" id="quantity" name="hind" min="1">
+                        <input class="input input-bordered w-full" type="number" id="quantity" name="price" min="1">
                     </div>
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Gluteeni vaba</span>
+                            <span class="label-text">Gluten free</span>
                         </label>
-                        <input type="hidden" name="gluk" value="0" />
-                        <input type="checkbox" class="checkbox" name="gluk"></input>
+                        <input type="hidden" name="glutF" value="0" />
+                        <input type="checkbox" class="checkbox" name="glutF"></input>
                     </div>
 
                     <div class="form-control w-full">
@@ -56,33 +56,17 @@
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Taimetoit</span>
+                            <span class="label-text">Vegeraian</span>
                         </label>
-                        <input type="hidden" name="taimetoit" value="0" />
-                        <input type="checkbox" class="checkbox" name="taimetoit"></input>
+                        <input type="hidden" name="vegetarian" value="0" />
+                        <input type="checkbox" class="checkbox" name="vegetarian"></input>
                     </div>
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Tugevus</span>
+                            <span class="label-text">Spiciness 0-5</span>
                         </label>
-                        <input class="input input-bordered w-full" type="number" name="tugevus" min="0" max="5"/>
-                    </div>
-
-                    <div class="form-control w-full">
-                        <label class="label">
-                            <span class="label-text">Tags</span>
-                        </label>
-                            <select multiple class="select select-bordered" name="tags[]">
-                                @foreach($tags as $tag)
-                                    <option value="{{$tag->id}}">{{$tag->name}}</option>
-                                @endforeach
-                            </select>
-                        @error('tags.*')
-                        <label class="label">
-                            <span class="label-text-alt text-error">{{$message}}</span>
-                        </label>
-                        @enderror
+                        <input class="input input-bordered w-full" type="number" name="spice" min="0" max="5"/>
                     </div>
                     <div class="form-control w-full">
                         <label class="label">
