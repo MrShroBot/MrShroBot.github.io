@@ -1,0 +1,462 @@
+.sansita-bold-italic {
+  font-family: "Sansita", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sansita-extrabold-italic {
+  font-family: "Sansita", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.sansita-black-italic {
+  font-family: "Sansita", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.sarina-regular {
+  font-family: "Sarina", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular-italic {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+    width: 100vh;
+}
+
+#back1 {
+    width: 100vh; 
+    height: 334.7vh; 
+    position: relative;
+    background-image: url(images/Avaleht@2x.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: left -17vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#back2 {
+    width: 100vh; 
+    height: 115vh; 
+    overflow-x: hidden;
+    position: relative;
+    background-image: url(images/back2.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: left top;
+    position: relative;
+}
+
+#back3 {
+    width: 100vh; 
+    height: 140vh; 
+    overflow-x: hidden;
+    position: relative;
+    background-image: url(images/main.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size:135%;
+    background-position: left -60vh;
+    position: relative;
+}
+
+#logo_top_back{
+    background-color: #EF7933;
+    width: 16.6vh;
+    height: 22.5vh;
+    margin-left: 6.4vh;
+    margin-top: -7.16vh;
+    border-radius: 5.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    float: left;
+    position: fixed;
+}
+
+#logo_top{
+    width: 85%;
+    height: 37%;
+    margin-bottom: 15%;
+}
+
+#footer{
+    width: 200vh;
+    height: 15vh;
+    background-color: #d9d9d986;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+    float: left;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+}
+
+#logo_bottom_back{
+    background-color: #EF7933;
+    width: 20.8vh;
+    height: 13.9vh;
+    margin-left: 6.4vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+
+#logo_bottom{
+    width: 78%;
+    height: 69%;
+    margin-bottom: 1vh;
+}
+
+#nav{
+    margin-left: 25vh;
+    margin-top: 5.5vh;
+    float: left;
+}
+
+#navNup{
+    border-style: solid;
+    border-width: 0.4ch;
+    border-radius: 4vh;
+    border-color: #ffffff80;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-left: 2vh;
+    float: left;
+    font-family: 'Sansita';
+    font-style: italic;
+    font-size: 2vh;
+    text-align: center;
+    letter-spacing: 0;
+    padding: 0.7vh;
+    width: 15vh;
+}
+
+#tila{
+    font-family: 'Sarina';
+    font-size: 10vh;
+    color: #FFFFFF;
+    margin-left: 20vh;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#alTitla{
+    font-family: 'Fruktur';
+    font-size: 4vh;
+    color: #FFFFFF;
+    margin-left: 50vh;
+    margin-top: -1vh;
+    float: left;
+    width: 100%;
+}
+
+#tila2{
+    font-family: 'Sarina';
+    font-size: 10vh;
+    color: #FFFFFF;
+    margin-left: 110vh;  
+    margin-top: -5vh;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#alTitla2{
+    font-family: 'Fruktur';
+    font-size: 4vh;
+    color: #FFFFFF;
+    margin-left: 140vh;
+    margin-top: -1vh;
+    float: left;
+    width: 100%;
+}
+
+#Ajalugu{
+    color: #FFFFFF;
+    margin-top: 50vh;
+    float: left;
+    width: 200%;
+    justify-content: center;
+    align-items: center;
+}
+
+#aja{
+    color: #FFFFFF;
+    font-family: 'Fruktur';
+    font-size: 15vh;
+    text-align: center;
+}
+
+#ajaAlg{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    font-size: 7vh;
+    margin-top: 17vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#ajaMid{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    font-size: 4.5vh;
+    margin-top: 0;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    float: left;
+    text-align: left;
+}
+
+#ajaLop{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    font-size: 7vh;
+    margin-top: 17vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    float: left;
+    text-align: left;
+}
+
+#tabPlan{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    width: 100vh;
+    font-size: 4.5vh;
+    margin-top: 17vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    float: left;
+    text-align: left;
+}
+
+#d{
+    margin-left: 25vh;
+    margin-right: 25vh;
+    width: 150vh;
+}
+
+#pvad{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 2vh;
+    justify-content: center;
+    float: left;
+    text-align: left;
+}
+
+.head td{
+    column-span: 2;
+    padding-left: 1vh;
+    width: 25vh;
+    height: 5vh;
+    background-color: #93491C;
+    margin: 0;
+}
+
+.body{
+    height: 7vh;
+    background-color: #934a1c80;
+    margin: 0; 
+}
+
+.one{
+    background-color: #93491C;
+    width: 6vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.wekend{
+    background-color: #A05936;
+}
+
+.booked{
+    background-color: #C2510C;
+}
+
+#kontak{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    width: 150vh;
+    font-size: 4vh;
+    margin-top: 5vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    float: left;
+    text-align: center;
+}
+
+#textBox{
+    background-color: #FFFFFF;
+    color: #15143991;
+    font-family: 'Inter';
+    width: 110vh;
+    height: 20vh;
+    font-size: 2vh;
+    margin-top: 0vh;
+    margin-left: 45vh;
+    margin-right: auto;
+    float: left;
+    text-align: left;
+    text-align: start;
+    padding: 2vh;
+    border-radius: 1vh;
+}
+
+#email{
+    width: 70vh;
+    height: 5vh;
+    font-size: 1.7vh;
+    margin-top: 7vh;
+    margin-left: 45vh;
+
+    float: left;
+    text-align: left;
+    text-align: start;
+    padding: 2vh;
+
+    border-radius: 5vh;
+    border-style: solid;
+    border-width: 0.2ch;
+    border-color: #ffffff;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#saada{
+    width: 30vh;
+    height: 9.5vh;
+    color: white;
+    font-family: 'Sansita';
+    font-size: 3vh;
+    margin-left: 10vh;
+    margin-right: auto;
+    float: left;
+    text-align: center;
+
+    border: none;
+    border-radius: 5vh;
+    background-color: #EF7933;
+}
+
+#saada1{
+    width: 30vh;
+    height: 9.5vh;
+    color: white;
+    font-family: 'Sansita';
+    font-size: 3vh;
+    margin-left: 85vh;
+    margin-right: auto;
+    margin-top: 3vh;
+    float: left;
+    text-align: center;
+
+    border: none;
+    border-radius: 5vh;
+    background-color: #EF7933;
+}
+
+#anneta{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    width: 150vh;
+    font-size: 4vh;
+    margin-top: 5vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    float: left;
+    text-align: center;
+}
+
+#anneta2{
+    color: #FFFFFF;
+    font-family: 'Sansita';
+    width: 150vh;
+    font-size: 3.1vh;
+    margin-top: 2vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    float: left;
+    text-align: center;
+}
+
+#summa{
+    border-style: solid;
+    border-width: 0.2ch;
+    border-radius: 5vh;
+    border-color: #ffffff;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-top: 3vh;
+    margin-left: 89vh;
+    margin-right: -5vh;
+    float: left;
+    font-family: 'Sansita';
+    font-style: italic;
+    font-size: 3.4vh;
+    text-align: left;
+    letter-spacing: 0;
+    padding-left: 2vh;
+    width: 19vh;
+    height: 8vh;
+}
+
+#€{
+    color: white;
+    font-family: 'Sansita';
+    font-style: italic;
+    font-size:4.5vh;
+    float: left;
+    margin-bottom: 2vh;
+}
+
+#podBac{
+    background-color: #d7d7d77a;
+    width: 170vh;
+    height: 90vh;
+    float: left;
+
+    margin-top: 3vh;
+    margin-left: 15vh;
+    
+    border-radius: 3vh;
+}
