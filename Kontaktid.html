@@ -27,7 +27,7 @@
         </div>
         
         <div style="display: table-cell;">
-            <button id="saada">Saada</button>
+            <button id="saada" onclick="saada()">Saada</button>
         </div>
         
     </div>
@@ -40,5 +40,12 @@
             </a>
         </p>
     </footer>
+
+    <script>
+        var input = document.getElementById("email");
+        function saada() {
+            alert("Kiri on saadetud!\n" +  "Vastuse saadame teie meilile:\n \n" + input.value)
+        }
+    </script>
 </body>
 </html>

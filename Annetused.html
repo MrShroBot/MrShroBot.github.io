@@ -21,16 +21,16 @@
     <p id="anneta">Soovite annetada meile, et aidata meil edasi töötada?<br>Väga tore!</p>
     <p id="anneta2">Kõik see raha läheb tuuliku ja selle ümbritseva maa hooldamisele.</p>
 
-    <Div id="" style="display: table;">
+    <Div id="anneSum" style="display: table;">
         <Div style="display: table-cell">
             <input id="summa" type="text" placeholder="3.00" pattern="[0-9]*">
         </Div>
-        <Div style="display: table-cell">
+        <Div id="€" style="display: table-cell">
             <p id="€">€</p>
         </Div>
     </Div>
 
-    <button id="saada1">Saada</button>
+    <button id="saada1" onclick="summa()">Saada</button>
     
     <footer id="footer">
         <p id="fotText">
@@ -40,4 +40,11 @@
             </a>
         </p>
     </footer>
+
+    <script>
+        var inputNum = document.getElementById("summa");
+        function summa() {
+            alert("Sa annetasid just " + inputNum.value + " eurot!\nSuur tänu!")
+        }
+    </script>
 </html>
