@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="E-pood.js">
 </head>
-<body id="back2">
+<body id="back3">
     <a href="index.html"><div id="logo_top_back"><img id="logo_top" src="images/logo.png" alt="Logo"></div></a>
 
-    <div id="nav">
-        <a href="Kontaktid.html"><div id="navNup">Kontaktid</div></a>
-        <a href="E-pood.html"><div id="navNup">E-pood</div></a>
-        <a href="Annetused.html"><div id="navNup">Annetused</div></a>
-    </div>
+    <nav id="nav">
+        <a id="navNup" href="Kontaktid.html">Kontaktid</a>
+        <a id="navNup" href="E-pood.html">E-pood</a>
+        <a id="navNup" href="Annetused.html">Annetused</a>
+    </nav>
 
-   <div id="shop">
+        <div id="shop">
             <p>Vaata üle mõned meie müügil olevad asjad!</p>
             
             <div id="carusell">
@@ -32,19 +32,13 @@
                 <div class="mySlides">
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <img src="images/hat.jpg" alt="müts" style="width: 100%; height: 30em; object-fit: cover;">
+                    <img src="images/honey1.jpg" alt="müts" style="width: 100%; height: 30em; object-fit: cover;">
                 </div>
 
                 <div class="mySlides">
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <img src="images/scarf.jpg" alt="sall" style="width: 100%; height: 30em; object-fit: cover;">
-                </div>
-
-                <div class="mySlides">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <img src="images/ring.jpg" alt="sõrmus" style="width: 100%; height: 30em; object-fit: cover;">
+                    <img src="images/honey3.jpg" alt="sall" style="width: 100%; height: 30em; object-fit: cover;">
                 </div>
 
                 <div class="row">
@@ -53,15 +47,11 @@
                     </div>
 
                     <div class="column">
-                        <img class="demo cursor" src="images/hat.jpg" alt="müts" onclick="currentSlide(2)" style="width: 100%; height: 10em;">
+                        <img class="demo cursor" src="images/honey1.jpg" alt="müts" onclick="currentSlide(2)" style="width: 100%; height: 10em;">
                     </div>
 
                     <div class="column">
-                        <img class="demo cursor" src="images/scarf.jpg" alt="sall" onclick="currentSlide(3)" style="width:100%; height: 10em;">
-                    </div>
-
-                    <div class="column">
-                        <img class="demo cursor" src="images/ring.jpg" alt="sõrmus" onclick="currentSlide(4)" style="width:100%; height: 10em;">
+                        <img class="demo cursor" src="images/honey3.jpg" alt="sall" onclick="currentSlide(3)" style="width:100%; height: 10em;">
                     </div>
                 </div>
 
@@ -69,13 +59,14 @@
             </div>
         </div>
 
-    <footer id="footer">
-        <p style="margin-right: 5vh;line-height: 15vh;margin-top: auto; font-family: Sansita; font-size: 2vh; color: white;">
-            E-mail: <a style="font-style: underline; color: white; text-decoration: underline;">
-                        leigri.tuulik@ingo.ee
-                    </a>
-        </p>
-    </footer>
+        <footer id="footer">
+            <p id="fotText">
+                Kontakt:<br>E-mail:
+                <a>
+                    leigri.tuulik@ingo.ee
+                </a>
+            </p>
+        </footer> 
 
     <script>
         let slideIndex = 1;
